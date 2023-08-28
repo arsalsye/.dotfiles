@@ -1,5 +1,11 @@
+# bashrc
 cp .bashrc ~/.bashrc
+echo "Copied over bashrc"
 
+# neovim
+nvim --headless +'PlugInstall' +qa
+nvim --headless +'PlugUpdate' +qa
+echo "Updated NeoVim plugins"
 
 # tmux
 if [ ! -d "~/.tmux/plugins/tpm" ]; then
