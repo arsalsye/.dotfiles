@@ -1,0 +1,2 @@
+ln -sv .bashrc ~/
+
