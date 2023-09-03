@@ -128,6 +128,7 @@ alias pycharm="(cd /opt/pycharm-community-2023.1.2/bin; ./pycharm.sh)"
 alias cls="clear"
 alias rr="rm -rf"
 alias update="apt update"
+alias install="apt install"
 alias shutdown="shutdown -h now"
 
 # Load Angular CLI autocompletion.
