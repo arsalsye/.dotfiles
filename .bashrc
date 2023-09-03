@@ -117,11 +117,18 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="/opt/protoc/bin:$PATH"
+
+###########
+# ALIASES #
+###########
+
 alias obsidian="(cd /opt; ./Obsidian-1.1.9.AppImage)"
 alias intellij="(cd /opt/idea-IC-223.8617.56/bin; ./idea.sh)"
 alias pycharm="(cd /opt/pycharm-community-2023.1.2/bin; ./pycharm.sh)"
 alias cls="clear"
-
+alias rr="rm -rf"
+alias update="apt update"
+alias shutdown="shutdown -h now"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
