@@ -1,3 +1,4 @@
+ln -sv ~/.dotfiles/.gitconfig ~/
 ln -sv ~/.dotfiles/.bashrc ~/
 ln -sv ~/.dotfiles/.bash_aliases ~/
 ln -sv ~/.dotfiles/.tmux.conf ~/
@@ -17,5 +18,5 @@ sudo curl -fLo /root/.vim/autoload/plug.vim --create-dirs \
 
 
 
-sudo apt install zsh exa duf taskwarrior \
+sudo apt install zsh exa duf taskwarrior colordiff\
 	vim-gtk3 # for clipboard support?
