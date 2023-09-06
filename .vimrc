@@ -27,3 +27,6 @@ set encoding=UTF-8
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+
+autocmd InsertEnter * set cursorline
+autocmd InsertLeave * set nocursorline
