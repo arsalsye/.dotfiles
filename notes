@@ -1,0 +1,10 @@
+To start gnome terminal maximized
+1) go to /usr/share/applications
+2) Find a file called org.gnome.Terminal.desktop
+3) Set `Exec=gnome-terminal --window --maximize`
+
+In order to get vim to use system clipboard
+1) you need to use a package that was copiled using clipboard support (vim --version | grep clipboard) --> +clipboard
+2) if it's -clipboard -> install vim-gtk3
+3) set clipboard=unnamedplus
+4) now the system clipboard is used for yank/paste by default

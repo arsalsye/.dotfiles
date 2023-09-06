@@ -87,11 +87,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -117,19 +112,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="/opt/protoc/bin:$PATH"
-
-###########
-# ALIASES #
-###########
-
-alias obsidian="(cd /opt; ./Obsidian-1.1.9.AppImage)"
-alias intellij="(cd /opt/idea-IC-223.8617.56/bin; ./idea.sh)"
-alias pycharm="(cd /opt/pycharm-community-2023.1.2/bin; ./pycharm.sh)"
-alias cls="clear"
-alias rr="rm -rf"
-alias update="apt update"
-alias install="apt install"
-alias shutdown="shutdown -h now"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
