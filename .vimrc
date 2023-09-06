@@ -12,6 +12,9 @@ set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set laststatus=2
 set autoindent
 set clipboard=unnamedplus
+set hlsearch
+set ignorecase
+set smartcase
 
 call plug#begin()
   Plug 'preservim/nerdtree'
