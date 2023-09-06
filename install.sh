@@ -20,3 +20,7 @@ sudo curl -fLo /root/.vim/autoload/plug.vim --create-dirs \
 
 sudo apt install zsh exa duf taskwarrior colordiff\
 	vim-gtk3 # for clipboard support?
+
+mkdir ~/.local/share/fonts
+unzip JetBrainsMono.zip -d ~/.local/share/fonts
+fc-cache ~/.local/share/fonts
