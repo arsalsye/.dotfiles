@@ -19,6 +19,7 @@ set smartcase
 call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'tpope/vim-commentary'
 call plug#end()
 
 set encoding=UTF-8
