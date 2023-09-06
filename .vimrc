@@ -18,7 +18,10 @@ set smartcase
 
 call plug#begin()
   Plug 'preservim/nerdtree'
+  Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+set encoding=UTF-8
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
