@@ -1,3 +1,7 @@
+bash install_vim.sh
+bash install_tmux.sh
+
+
 ln -sv ~/.dotfiles/.gitconfig ~/
 ln -sv ~/.dotfiles/.bashrc ~/
 ln -sv ~/.dotfiles/.bash_aliases ~/
@@ -6,6 +10,11 @@ ln -sv ~/.dotfiles/.vimrc ~/
 sudo ln -sv ~/.dotfiles/.vimrc /root/
 ln -sv ~/.dotfiles/.zshrc ~/
 ln -sv ~/.dotfiles/.taskrc ~/
+
+# tmux
+if [ ! -d "~/.tmux/plugins/tpm" ]; then
+ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

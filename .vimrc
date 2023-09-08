@@ -20,6 +20,7 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'ryanoasis/vim-devicons'
   Plug 'tpope/vim-commentary'
+  Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set encoding=UTF-8
@@ -30,3 +31,11 @@ let NERDTreeShowHidden=1
 
 autocmd InsertEnter * set cursorline
 autocmd InsertLeave * set nocursorline
+
+" Use steady bar in insert mode
+let &t_SI = "\e[6 q" 
+
+" Use steady block in insert mode
+let &t_EI = "\e[2 q"
+
+set updatetime=100
