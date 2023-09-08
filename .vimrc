@@ -38,4 +38,9 @@ let &t_SI = "\e[6 q"
 " Use steady block in insert mode
 let &t_EI = "\e[2 q"
 
+" git-gutter settings
 set updatetime=100
+highlight clear SignColumn
+highlight GitGutterAdd ctermfg=green
+highlight GitGutterChange ctermfg=yellow
+highlight GitGutterChangeDelete ctermfg=red
