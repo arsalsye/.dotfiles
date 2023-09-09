@@ -44,3 +44,7 @@ highlight clear SignColumn
 highlight GitGutterAdd ctermfg=green
 highlight GitGutterChange ctermfg=yellow
 highlight GitGutterChangeDelete ctermfg=red
+
+" override MatchParen highlighting from molokai color scheme
+highlight clear MatchParen
+highlight MatchParen ctermfg=red
