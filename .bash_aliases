@@ -6,6 +6,7 @@ alias rr="rm -rf"
 alias update="apt update"
 alias install="apt install"
 alias shutdown="shutdown -h now"
+alias restart="shutdown -r now"
 
 alias ll='ls -alF'
 alias la='ls -A'
