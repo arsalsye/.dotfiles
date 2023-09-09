@@ -15,6 +15,7 @@ set clipboard=unnamedplus
 set hlsearch
 set ignorecase
 set smartcase
+set showcmd
 
 call plug#begin()
   Plug 'preservim/nerdtree'
