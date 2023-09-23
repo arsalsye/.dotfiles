@@ -8,3 +8,7 @@ In order to get vim to use system clipboard
 2) if it's -clipboard -> install vim-gtk3
 3) set clipboard=unnamedplus
 4) now the system clipboard is used for yank/paste by default
+
+Had an issue with getting virtualbox installed on Ubuntu because SecureBoot was enabled
+solution was to sign some virtualbox packages
+https://devicetests.com/install-virtualbox-uefi-secure-boot-ubuntu
