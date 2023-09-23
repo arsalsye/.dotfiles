@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JetBrainsMono">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JetBrainsMono.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
